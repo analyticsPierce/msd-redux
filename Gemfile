@@ -22,6 +22,8 @@ gem 'uglifier'
 gem 'unicorn'
 gem 'middleman'
 gem 'middleman-blog'
+gem 'haml'
+gem 'haml-rails'
 
 group :development do
   gem 'foreman'
