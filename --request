@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json; charset=utf-8
+Content-Length: 2908
+Vary: Accept-Encoding
+X-Request-Id: 89966ceb-0364-4b1b-bf98-52a3c33d51e7
+Link: <https://us6.api.mailchimp.com/schema/3.0/Root.json>; rel="describedBy"
+Date: Fri, 20 Nov 2015 06:44:02 GMT
+Connection: keep-alive
+

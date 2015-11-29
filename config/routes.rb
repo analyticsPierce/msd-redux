@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get "/welcomes" => "welcomes#index"
+  get "/" => "welcomes#index"
 end

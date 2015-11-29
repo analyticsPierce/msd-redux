@@ -3,6 +3,9 @@ body,html {
   padding:0;
 }
 
+p {
+  margin: 0 40px 0 40px;
+}
 #main {
     @include outer-container;
 }
@@ -27,7 +30,7 @@ ol {
 
 #intro{
   position: relative;
-  background-color: red;
+  background-color: white;
   display:block;
   height: 400px;
   text-align: center;
@@ -36,14 +39,29 @@ ol {
 #what{
   background-color: white;
   display:block;
-  height: 400px;
+  height: 700px;
   text-align: center;
 }
 
 #who{
-  background-color: red;
+  background-color: PaleGreen;
+  background-image:
+  url(//marketingscience.co/images/graph_image_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   display:block;
   height: 400px;
+  text-align: center;
+}
+
+#work_with{
+  background-color: PaleGreen;
+  background-image:
+  url(//marketingscience.co/images/graph_image_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display:block;
+  height: 350px;
   text-align: center;
 }
 
