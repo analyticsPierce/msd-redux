@@ -4,6 +4,6 @@ feature 'footer' do
   scenario 'is a separate section' do
     visit "/"
 
-    expect(page).to have_css('section.footer')
+    expect(page).to have_css('footer')
   end
 end
