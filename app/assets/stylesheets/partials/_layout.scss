@@ -45,8 +45,7 @@ ol {
 
 #who{
   background-color: PaleGreen;
-  background-image:
-  url(//marketingscience.co/images/graph_image_background.png);
+  background-image: image_url("graph_image_background_paleGreen.png");
   background-repeat: no-repeat;
   background-size: cover;
   display:block;
@@ -67,4 +66,16 @@ ol {
 
 .copy{
   padding-top: 100px;
+}
+
+#packages-overview{
+  background-color: white;
+  display:block;
+  height: 300px;
+  text-align: center;
+}
+
+#packages-cards{
+  display:block;
+  height:700px; 
 }
