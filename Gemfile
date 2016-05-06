@@ -22,12 +22,14 @@ gem 'uglifier'
 gem 'unicorn'
 gem 'haml'
 gem 'haml-rails'
+gem 'annotate'
 
 group :development do
   gem 'foreman'
   gem 'spring'
   gem 'spring-commands-rspec'
   gem 'middleman-livereload'
+  gem 'letter_opener'
 end
 
 group :development, :test do

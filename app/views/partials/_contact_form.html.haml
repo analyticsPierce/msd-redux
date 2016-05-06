@@ -1,0 +1,15 @@
+.contact_form_wrapper
+  .contact_form_on_main_page{:align => 'left'}
+    = form_tag send_email_path, remote: true, 'data-type' => :json, id: 'contact_form' do
+      .error-messages.error
+      %p
+        = label_tag 'Name'
+        = text_field_tag :name
+      %p
+        = label_tag 'Email'
+        = email_field_tag :email, nil, pattern: "^([\w+-.%]+@[\w-.]+\.[A-Za-z]{2,4},*[\W]*)+$", multiple: true
+      %p
+        = label_tag 'Message'
+        = text_area_tag :message
+      %p
+        =  submit_tag 'Send message', :class=> 'btn btn-primary float-right'
