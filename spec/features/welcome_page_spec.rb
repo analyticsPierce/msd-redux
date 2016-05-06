@@ -24,10 +24,11 @@ feature 'welcome page' do
 
     expect(page).to have_css('section#who')
   end
-
-  scenario 'has a contact form' do
-    visit "/"
-
-    expect(page).to have_css('
-  end
+#
+#  scenario 'has a contact form' do
+#    visit "/"
+#
+#    expect(page).to have_css('
+#  end
+#  
 end
