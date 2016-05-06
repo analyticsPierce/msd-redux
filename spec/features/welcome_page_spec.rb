@@ -20,7 +20,14 @@ feature 'welcome page' do
   end
 
   scenario 'has a work with us section' do
+    visit "/"
 
+    expect(page).to have_css('section#who')
   end
 
+  scenario 'has a contact form' do
+    visit "/"
+
+    expect(page).to have_css('
+  end
 end
