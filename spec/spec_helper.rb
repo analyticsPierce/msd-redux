@@ -38,5 +38,4 @@ end
 
 ActiveRecord::Migration.maintain_test_schema!
 Capybara.javascript_driver = :webkit
-# WebMock.disable_net_connect!(allow_localhost: true)
 WebMock.allow_net_connect!
