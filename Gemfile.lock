@@ -28,6 +28,9 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     addressable (2.4.0)
+    annotate (2.7.1)
+      activerecord (>= 3.2, < 6.0)
+      rake (>= 10.4, < 12.0)
     arel (5.0.1.20140414130214)
     awesome_print (1.6.1)
     bourbon (3.2.4)
@@ -115,6 +118,8 @@ GEM
     kgio (2.10.0)
     launchy (2.4.3)
       addressable (~> 2.3)
+    letter_opener (1.4.1)
+      launchy (~> 2.2)
     listen (3.0.6)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9.7)
@@ -271,6 +276,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  annotate
   awesome_print
   bourbon (~> 3.2.1)
   capybara-webkit (>= 1.0.0)
@@ -289,6 +295,7 @@ DEPENDENCIES
   high_voltage
   jquery-rails
   launchy
+  letter_opener
   middleman-livereload
   neat (~> 1.5.1)
   newrelic_rpm (>= 3.7.3)
@@ -310,5 +317,8 @@ DEPENDENCIES
   unicorn
   webmock
 
+RUBY VERSION
+   ruby 2.2.2p95
+
 BUNDLED WITH
-   1.11.2
+   1.12.5
