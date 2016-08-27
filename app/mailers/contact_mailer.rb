@@ -1,5 +1,5 @@
 class ContactMailer < ActionMailer::Base
-  default from: 'noreply@marketingscience.co'
+  default from: 'robot@marketingscience.co'
 
   def contact_form(name, email, msg)
     @name = name

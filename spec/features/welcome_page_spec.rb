@@ -27,7 +27,6 @@ feature 'welcome page' do
 
  scenario 'has a contact form' do
    visit "/"
-
    expect(page).to have_css('form#contact_form')
  end
 
