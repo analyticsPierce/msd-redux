@@ -18,7 +18,7 @@ class WelcomesController < ApplicationController
       end
     end
     respond_to do |format|
-        format.html { redirect_to root_path, :notice=> 'Done !!' }
+        format.html { redirect_to root_path }
         if error.blank?
           format.json { render json: {msg: 'Thank you for the message. We will contact you shortly.' }, status: 200 }
         else

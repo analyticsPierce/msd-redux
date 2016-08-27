@@ -10,5 +10,7 @@
 Rails.application.routes.draw do
   get "/" => "welcomes#index"
   get "/packages" => "packages#index"
+
+  root 'welcomes#index'
   post 'send_email', to: 'welcomes#send_email'
 end
