@@ -4,6 +4,6 @@ SMTP_SETTINGS = {
   domain: ENV.fetch('SMTP_DOMAIN'), # example: 'this-app.com'
   enable_starttls_auto: true,
   password: ENV.fetch('SMTP_PASSWORD'),
-  port: '587',
+  port: ENV.fetch('SMTP_PORT'),
   user_name: ENV.fetch('SMTP_USERNAME')
 }

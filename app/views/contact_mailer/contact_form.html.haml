@@ -1,0 +1,19 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+  %body
+    %p
+      You have got a email from contact form.
+      %br/
+      Details:
+    %ul
+      %li
+        Name:
+        =@name
+      %li
+        Email:
+        =@email
+      %li
+        Message:
+        =@msg
